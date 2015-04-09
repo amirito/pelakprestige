@@ -1,0 +1,74 @@
+@font-face{
+	font-family:'koodak';
+	src:url('../fonts/BKoodakBold.eot');
+	src:url('../fonts/BKoodakBold.eot#iefix') format('eot'),url('../fonts/BKoodakBold.woff') format('woff'),url('../fonts/BKoodakBold.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+body{
+	font-family:'koodak';
+	}
+.right-side{
+	background-image:url(../assets/img/home/01.jpg);
+	background-size:cover;
+	height:100%;
+	}
+a{
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	}
+@media (min-width: 992px) {
+    .right-side{
+		position:absolute;
+		right:0;
+	}
+}
+@media (max-width: 992px) {
+    .right-side{
+		position:static;
+		min-height:400px;
+	}
+}
+.right-side{
+	overflow:auto;
+	padding:0;
+	}
+.navbar-top{
+	background-color:#24447b;
+	}
+.navbar-top a{
+	color:#FFD700;
+	}
+.navbar-toggle{
+	border:solid 1px #FFD700;
+	}
+.icon-bar{
+	background-color:#FFD700;
+	}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color:#FFD700;
+	color:#24447b;
+	}
+.dropdown-menu{
+	text-align:right;
+	}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color:#24447b;
+	color:#FFD700;
+	}
+.left-side{
+	background-image:url(../images/brushed-alum-dark.png);
+	overflow:auto;
+	height:100%;
+	position:absolute;
+	left:0;
+	direction:rtl;
+	padding:10px 25px 10px 25px;
+	text-align:justify;
+	}
+.left-side h2{
+	color:#24447b;
+	}
