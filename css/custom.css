@@ -37,19 +37,22 @@ a{
 	padding:0;
 	}
 .navbar-top{
-	background-color:#24447b;
+	background: -webkit-linear-gradient(left,#21526d,#386984, #21526d); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left,#21526d,#386984, #21526d); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left,#21526d,#386984, #21526d); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(left,#21526d,#386984, #21526d); /* Standard syntax */
 	}
 .navbar-top a{
-	color:#FFD700;
+	color:#f6c284;
 	}
 .navbar-toggle{
-	border:solid 1px #FFD700;
+	border:solid 1px #f6c284;
 	}
 .icon-bar{
-	background-color:#FFD700;
+	background-color:#f6c284;
 	}
 .nav > li > a:hover, .nav > li > a:focus{
-	background-color:#FFD700;
+	background-color:#f6c284;
 	color:#24447b;
 	}
 .dropdown-menu{
@@ -57,7 +60,7 @@ a{
 	}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
 	background-color:#24447b;
-	color:#FFD700;
+	color:#f6c284;
 	}
 .left-side{
 	background-image:url(../images/brushed-alum-dark.png);

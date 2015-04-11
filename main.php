@@ -23,6 +23,9 @@
 	
 	
 	?>
+    <div class="text-center">
+    	<p>طراحی : شرکت <a href="http://rayweb.ir">رای وب</a></p>
+    </div>
 </div>
 <div class="col-md-6 right-side">
 	<nav class="navbar navbar-top">
@@ -42,7 +45,7 @@
           
           
           <ul class="nav navbar-nav navbar-right">
-            <li class="pull-right"><a href="#">صفحه اصلی</a></li>
+            <li class="pull-right"><a href="index.html">صفحه اصلی</a></li>
             <li class="pull-right"><a href="#">درباره ما</a></li>
             <li class="dropdown pull-right">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> ارتباط با ما </a>
@@ -56,11 +59,10 @@
             <li class="dropdown pull-right">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> اطلاعات ضروری ساکنین </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+                <li><a href="#">قانون تملک آپارتمان ها</a></li>
+                <li><a href="#">اساس نامه مجتمع</a></li>
+                <li><a href="#">شرح وظایف</a></li>
+                <li><a href="#">توصیه های مهم برای ساکنین</a></li>
               </ul>
             </li>
           </ul>
