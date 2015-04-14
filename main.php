@@ -53,20 +53,23 @@
       </div><!-- /.container-fluid -->
     </nav>
 </div>
+<div class="clearfix"></div>
 <div class="col-md-6 left-side">
-	<?php
-		if(isset($_GET['page'])){
-					if(is_file('include/'.$_GET['page'].'.php')){
-						include 'include/'.$_GET['page'].'.php';
-						}else{
-						die('صفحه مورد نظر وجود ندارد');
-						}
-					}else{
-						header('Location: index.html');
-						}
-	
-	
-	?>
+	<section>
+		<?php
+            if(isset($_GET['page'])){
+                        if(is_file('include/'.$_GET['page'].'.php')){
+                            include 'include/'.$_GET['page'].'.php';
+                            }else{
+                            die('صفحه مورد نظر وجود ندارد');
+                            }
+                        }else{
+                            header('Location: index.html');
+                            }
+        
+        
+        ?>
+    </section>
     <div class="text-center">
     	<p>طراحی : شرکت <a href="http://rayweb.ir">رای وب</a></p>
     </div>

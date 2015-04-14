@@ -72,6 +72,13 @@ a{
 	padding:10px 25px 10px 25px;
 	text-align:justify;
 	}
-.left-side h2{
+.blue{
 	color:#24447b;
+	}
+.radio-inline label, .radio label, .checkbox{
+	padding-right: 20px;
+	}
+.radio-inline input[type=radio], .radio input[type=radio], input[type=checkbox]{
+	margin-left:0;
+	margin-right:-20px;
 	}

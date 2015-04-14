@@ -1,7 +1,6 @@
-<section>
-	<h2>لطفا حتما با ما در تماس باشید!</h2>
-    <p>
-    	چطور می تونیم در خدمت شما باشیم؟  در پلاک پرستیژ ما از سوالات نظرات  پیشنهادات و تحسین های شما عزیزانی که ساکن در مجتمع های تحت مدیریت ما هستید خوش حال می شویم  و حتی انتقادات شما  عزیزان  نیز باعث شادمانی ماست چرا که با استفاده از آن ها می توانیم نواقص کار خودمان را بهتر بشناسیم و در خدمت رسانی به شما بیشتر تلاش کنیم. لطفا از روش های زیر با ما در ارتباط باشید
+
+	<h3 class="blue">چطور می تونیم در خدمت شما باشیم؟  </h3>
+    <p>در پلاک پرستیژ، ما از سوالات، نظرات،  پیشنهادات و تحسین های شما عزیزانی که ساکن در مجتمع های تحت مدیریت ما هستید خوش حال می شویم  و حتی انتقادات شما  عزیزان  نیز باعث شادمانی ماست چرا که با استفاده از آن ها می توانیم نواقص کار خودمان را بهتر بشناسیم و در خدمت رسانی به شما بیشتر تلاش کنیم. لطفا از روش های زیر با ما در ارتباط باشید:
     </p>
     <p>
     	 دفتر مرکزی: تهران- خ ظفر- کوچه  خالد- پلاک 3
@@ -63,6 +62,22 @@
             <label for="message">سوال شما</label>
             <textarea class="form-control" rows="6" id="content" name="message"  required></textarea>
         </div>
+        <div class="form-group">
+        	<label>روش ارجح تماس با شما: </label>
+            <br>
+            <div class="radio-inline">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="phone" checked>
+                تلفن/
+              </label>
+            </div>
+            <div class="radio-inline">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="mail">
+                ایمیل
+              </label>
+            </div>
+        </div>
+        <div class="clearfix"></div>
         <input name="submit" type="submit" value="ارسال پیام" class="btn btn-default">
     </form>
-</section>
