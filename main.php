@@ -9,24 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
-<div class="col-md-6 left-side">
-	<?php
-		if(isset($_GET['page'])){
-					if(is_file('include/'.$_GET['page'].'.php')){
-						include 'include/'.$_GET['page'].'.php';
-						}else{
-						die('صفحه مورد نظر وجود ندارد');
-						}
-					}else{
-						header('Location: index.html');
-						}
-	
-	
-	?>
-    <div class="text-center">
-    	<p>طراحی : شرکت <a href="http://rayweb.ir">رای وب</a></p>
-    </div>
-</div>
+
 <div class="col-md-6 right-side">
 	<nav class="navbar navbar-top">
       <div class="container-fluid">
@@ -70,7 +53,24 @@
       </div><!-- /.container-fluid -->
     </nav>
 </div>
-
+<div class="col-md-6 left-side">
+	<?php
+		if(isset($_GET['page'])){
+					if(is_file('include/'.$_GET['page'].'.php')){
+						include 'include/'.$_GET['page'].'.php';
+						}else{
+						die('صفحه مورد نظر وجود ندارد');
+						}
+					}else{
+						header('Location: index.html');
+						}
+	
+	
+	?>
+    <div class="text-center">
+    	<p>طراحی : شرکت <a href="http://rayweb.ir">رای وب</a></p>
+    </div>
+</div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
