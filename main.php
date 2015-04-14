@@ -35,10 +35,10 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=contact">تماس با ما </a></li>
                 <li><a href="#">دفاتر و پروژه های شرکت </a></li>
-                <li><a href="#">درخواست فرم  پیشنهاد همکاری</a></li>
+                <li><a href="main.php?page=offer">درخواست فرم  پیشنهاد همکاری</a></li>
               </ul>
             </li>
-            <li class="pull-right"><a href="#">فرصت های شغلی</a></li>
+            <li class="pull-right"><a href="main.php?page=job">فرصت های شغلی</a></li>
             <li class="dropdown pull-right">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> اطلاعات ضروری ساکنین </a>
               <ul class="dropdown-menu" role="menu">
