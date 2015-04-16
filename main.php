@@ -34,7 +34,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> ارتباط با ما </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=contact">تماس با ما </a></li>
-                <li><a href="#">دفاتر و پروژه های شرکت </a></li>
+                <li><a href="?page=map">دفاتر و پروژه های شرکت </a></li>
                 <li><a href="main.php?page=offer">درخواست فرم  پیشنهاد همکاری</a></li>
               </ul>
             </li>
@@ -42,10 +42,10 @@
             <li class="dropdown pull-right">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> اطلاعات ضروری ساکنین </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">قانون تملک آپارتمان ها</a></li>
-                <li><a href="#">اساس نامه مجتمع</a></li>
-                <li><a href="#">شرح وظایف</a></li>
-                <li><a href="#">توصیه های مهم برای ساکنین</a></li>
+                <li><a href="?page=ownership">قانون تملک آپارتمان ها</a></li>
+                <li><a href="?page=statute">اساس نامه مجتمع</a></li>
+                <li><a href="?page=tasks">شرح وظایف</a></li>
+                <li><a href="?page=recommendation">توصیه های مهم برای ساکنین</a></li>
               </ul>
             </li>
           </ul>
