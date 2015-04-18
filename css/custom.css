@@ -20,6 +20,9 @@ a{
 	-o-transition: all .5s;
 	transition: all .5s;
 	}
+a:hover{
+	text-decoration:none;
+	}
 @media (min-width: 992px) {
     .right-side{
 		position:absolute;
@@ -71,7 +74,9 @@ a{
 	direction:rtl;
 	padding:10px 25px 10px 25px;
 	text-align:justify;
+	font-size:16px;
 	}
+
 .blue{
 	color:#24447b;
 	}
@@ -82,3 +87,52 @@ a{
 	margin-left:0;
 	margin-right:-20px;
 	}
+	
+.value{
+	position:relative;
+	padding:10px;
+	min-height:130px;
+	border:dashed 1px #999;
+	}
+.value-text{
+	width:70%;
+	-webkit-transition: all .7s;
+	-moz-transition: all .7s;
+	-ms-transition: all .7s;
+	-o-transition: all .7s;
+	transition: all .7s;
+	display:inline-block;
+	padding-top:25px;
+	}
+.value-image{
+	opacity:0;
+	width:30%;
+	position:absolute;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	}
+.value:hover .value-image{
+	opacity:1;
+	}
+.value:hover .value-text{
+	margin-right:150px;
+	}
+	
+.comment{
+	padding-right:10px;
+	border-right:solid 4px #ccc;
+	}
+.comment-text{
+	padding-right:55px;
+	}
+.line-row{
+    background: none repeat scroll 0 0 #d9d9d9;
+    border-bottom: 1px solid white;
+    height: 1px;
+    width: 100%;
+    display: block;
+
+}
