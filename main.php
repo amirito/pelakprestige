@@ -32,7 +32,7 @@
             <li class="dropdown pull-right">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> درباره ما </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=review">نگاه اجمالی ها</a></li>
+                <li><a href="?page=review">نگاه اجمالی</a></li>
                 <li><a href="?page=value">ارزشهای سازمانی</a></li>
                 <li><a href="?page=board">اعضای هیات مدیره </a></li>
                 <li><a href="?page=join">به ما بپیوندید</a></li>
