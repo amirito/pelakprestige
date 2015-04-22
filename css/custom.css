@@ -5,8 +5,19 @@
 	font-weight:normal;
 	font-style:normal;
 }
+@font-face{
+	font-family:'titr';
+	src:url('../fonts/BTitrBd.eot');
+	src:url('../fonts/BTitrBd.eot#iefix') format('eot'),url('../fonts/BTitrBd.woff') format('woff'),url('../fonts/BTitrBd.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+.titr{
+	font-family:titr !important;
+	}
 body{
 	font-family:'koodak';
+	
 	}
 .right-side{
 	background-image:url(../assets/img/home/01.jpg);
@@ -39,13 +50,23 @@ a:hover{
 	overflow:auto;
 	padding:0;
 	}
-.navbar-top{
-	background: -webkit-linear-gradient(left,#21526d,#386984, #21526d); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(left,#21526d,#386984, #21526d); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(left,#21526d,#386984, #21526d); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(left,#21526d,#386984, #21526d); /* Standard syntax */
+.navbar-bottom{
+	position:absolute;
+	bottom:0;
+	right:0;
+	text-align:center;
+	height:auto;
+	width:100%;
+	
+	margin-bottom:0;
 	}
-.navbar-top a{
+.navbar-top{
+	background: -webkit-linear-gradient(left,#1285b0,#14769b, #1285b0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left,#1285b0,#14769b, #1285b0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left,#1285b0,#14769b, #1285b0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(left,#1285b0,#14769b, #1285b0); /* Standard syntax */
+	}
+.navbar-top a, .navbar-bottom a{
 	color:#f6c284;
 	}
 .navbar-toggle{
@@ -78,7 +99,8 @@ a:hover{
 	}
 
 .blue{
-	color:#24447b;
+	color:#1285b0;
+	font-family:titr !important;
 	}
 .radio-inline label, .radio label, .checkbox{
 	padding-right: 20px;
@@ -136,3 +158,32 @@ a:hover{
     display: block;
 
 }
+
+.left-side ul li{
+	margin-bottom:15px;
+	line-height:20px;
+	}
+.fa-arrow-circle-left{
+	cursor:pointer;
+	margin-right:5px;
+	padding-left:10px;
+	}
+.fa-arrow-circle-left:hover{
+	padding-left:5px;
+	margin-right:10px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	color:#1285b0;
+	}
+.dropdown-menu{
+	background-color:#1285b0;
+	}
+.dropdown-menu > li > a{
+	color:#f6c284;
+	}
+.under-list li{
+	margin-bottom:5px !important;
+	}

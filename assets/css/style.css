@@ -622,10 +622,10 @@ ul.list-items .list-des {
 
 #side-bar {
     width: 270px;
-    background: -webkit-linear-gradient(#21526d,#386984, #21526d); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#21526d,#386984, #21526d); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#21526d,#386984, #21526d); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#21526d,#386984, #21526d); /* Standard syntax */
+    background: -webkit-linear-gradient(#1285b0,#14769b, #1285b0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1285b0,#14769b, #1285b0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1285b0,#14769b, #1285b0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1285b0,#14769b, #1285b0); /* Standard syntax */
     text-align: center;
     position: fixed;
     top: 0;
@@ -644,10 +644,10 @@ ul.list-items .list-des {
     height: 100%;
     z-index: 5;
     text-align: center;
-    background: -webkit-linear-gradient(#21526d,#386984, #21526d); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#21526d,#386984, #21526d); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#21526d,#386984, #21526d); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#21526d,#386984, #21526d); /* Standard syntax */
+    background: -webkit-linear-gradient(#1285b0,#14769b, #1285b0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1285b0,#14769b, #1285b0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1285b0,#14769b, #1285b0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1285b0,#14769b, #1285b0); /* Standard syntax */
     box-shadow: 1px 0 4px -4px #000;
 	border-left:2px solid #0d223e;
 }
@@ -859,10 +859,10 @@ ul.list-items .list-des {
     top: 0;
     left: -100%;
     width: 100%;
-    background: -webkit-linear-gradient(#21526d,#386984, #21526d); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#21526d,#386984, #21526d); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#21526d,#386984, #21526d); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#21526d,#386984, #21526d); /* Standard syntax */
+    background: -webkit-linear-gradient(#1285b0,#14769b, #1285b0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1285b0,#14769b, #1285b0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1285b0,#14769b, #1285b0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1285b0,#14769b, #1285b0); /* Standard syntax */
     min-height: 100%;
     z-index: 2;
     list-style: none;
