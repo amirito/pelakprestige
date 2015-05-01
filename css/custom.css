@@ -229,9 +229,11 @@ a:hover{
 	-ms-transition: all .5s;
 	-o-transition: all .5s;
 	transition: all .5s;
+	opacity:0.8;
 }
 .cn-button:hover {
 	box-shadow: inset 0 0 3px #666;
+	opacity:1;
 	
 }
 
@@ -319,10 +321,7 @@ a:hover{
 	width: 14.5em;
 	height: 14.5em;
 	border-radius: 50%;
-	background: #429a67;
-	background: -webkit-radial-gradient(transparent 35%, #1285b0 35%);
-	background: -moz-radial-gradient(transparent 35%, #1285b0 35%);
-	background: radial-gradient(transparent 35%, #1285b0 35%);
+	
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
@@ -336,6 +335,30 @@ a:hover{
 	backface-visibility: hidden;
 	pointer-events: auto;
 }
+.sign1{
+	background: #429a67;
+	background: -webkit-radial-gradient(transparent 35%, #ff0000 35%);
+	background: -moz-radial-gradient(transparent 35%, #ff0000 35%);
+	background: radial-gradient(transparent 35%, #ff0000 35%);
+	}
+.sign2{
+	background: #429a67;
+	background: -webkit-radial-gradient(transparent 35%, #00ff00 35%);
+	background: -moz-radial-gradient(transparent 35%, #00ff00 35%);
+	background: radial-gradient(transparent 35%, #00ff00 35%);
+	}
+.sign3{
+	background: #429a67;
+	background: -webkit-radial-gradient(transparent 35%, #0000ff 35%);
+	background: -moz-radial-gradient(transparent 35%, #0000ff 35%);
+	background: radial-gradient(transparent 35%, #0000ff 35%);
+	}
+.sign4{
+	background: #429a67;
+	background: -webkit-radial-gradient(transparent 35%, gray 35%);
+	background: -moz-radial-gradient(transparent 35%, gray 35%);
+	background: radial-gradient(transparent 35%, gray 35%);
+	}
 
 .csstransforms .cn-wrapper li a span {
 	position: relative;
@@ -366,38 +389,38 @@ a:hover{
 }
 
 .csstransforms .opened-nav li:first-child {
-	-webkit-transform: rotate(21deg) skew(60deg);
-	-moz-transform: rotate(21deg) skew(60deg);
-	-ms-transform: rotate(21deg) skew(60deg);
-	transform: rotate(21deg) skew(60deg);
+	-webkit-transform: rotate(12deg) skew(60deg);
+	-moz-transform: rotate(12deg) skew(60deg);
+	-ms-transform: rotate(12deg) skew(60deg);
+	transform: rotate(12deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(2) {
-	-webkit-transform: rotate(57deg) skew(60deg);
-	-moz-transform: rotate(57deg) skew(60deg);
-	-ms-transform: rotate(57deg) skew(60deg);
-	transform: rotate(57deg) skew(60deg);
+	-webkit-transform: rotate(44deg) skew(60deg);
+	-moz-transform: rotate(44deg) skew(60deg);
+	-ms-transform: rotate(44deg) skew(60deg);
+	transform: rotate(44deg) skew(60deg);
 }
 
 .csstransforms .opened-nav  li:nth-child(3) {
-	-webkit-transform: rotate(93deg) skew(60deg);
-	-moz-transform: rotate(93deg) skew(60deg);
-	-ms-transform: rotate(93deg) skew(60deg);
-	transform: rotate(93deg) skew(60deg);
+	-webkit-transform: rotate(76deg) skew(60deg);
+	-moz-transform: rotate(76deg) skew(60deg);
+	-ms-transform: rotate(76deg) skew(60deg);
+	transform: rotate(76deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(4) {
-	-webkit-transform: rotate(129deg) skew(60deg);
-	-moz-transform: rotate(129deg) skew(60deg);
-	-ms-transform: rotate(129deg) skew(60deg);
-	transform: rotate(129deg) skew(60deg);
-}
-
-.csstransforms .opened-nav li:nth-child(5) {
 	-webkit-transform: rotate(108deg) skew(60deg);
 	-moz-transform: rotate(108deg) skew(60deg);
 	-ms-transform: rotate(108deg) skew(60deg);
 	transform: rotate(108deg) skew(60deg);
+}
+
+.csstransforms .opened-nav li:nth-child(5) {
+	-webkit-transform: rotate(140deg) skew(60deg);
+	-moz-transform: rotate(140deg) skew(60deg);
+	-ms-transform: rotate(140deg) skew(60deg);
+	transform: rotate(140deg) skew(60deg);
 }
 
 .csstransforms .opened-nav li:nth-child(6) {
