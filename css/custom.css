@@ -345,6 +345,7 @@ a:hover{
 	font-weight: 700;
 	text-transform: uppercase;
 	padding:0 150px;
+	direction:rtl;
 }
 
 .csstransforms .cn-wrapper li a:hover,
