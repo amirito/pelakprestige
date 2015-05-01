@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/vendors/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 <body>
 
@@ -84,7 +85,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <nav class="navbar navbar-bottom">
+    <div class="navbar-bottom">
       <!--<div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -114,8 +115,22 @@
           </ul>
         </div>
       </div>-->
-      <a class="btn btn-success btn-lg"><i class="fa fa-sign-in"></i> ورود ساکنین / مالکین</a>
-    </nav>
+      <div class="component">
+          <h2>پلاک پرستیژ</h2>
+          <!-- Start Nav Structure -->
+          <button class="cn-button" id="cn-button">ورود ساکنین / مالکین</button>
+          <div class="cn-wrapper" id="cn-wrapper">
+              <ul>
+                  <li><a href="#"><span>مشاهده سابقه و وضعیت مالی واحد</span></a></li>
+                  <li><a href="#"><span>پرداخت (شارژ و قبوض)</span></a></li>
+                  <li><a href="#"><span>گزارشات مالی و اسناد و مدارک </span></a></li>
+                  <li><a href="#"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
+                  
+               </ul>
+          </div>
+          <!-- End of Nav Structure -->
+      </div>
+    </div>
 </div>
 <div class="clearfix"></div>
 <div class="col-md-6 left-side">
@@ -140,5 +155,7 @@
 </div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
 </body>
 </html>
