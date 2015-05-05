@@ -527,3 +527,7 @@ a:hover{
 		line-height: 3em;
 	}
 }
+.nav > li.active > a{
+	background-color:#f6c284;
+	color:#24447b;
+}

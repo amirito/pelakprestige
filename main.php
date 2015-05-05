@@ -1,3 +1,24 @@
+<?php
+	$active_1 = ''; 
+	$active_2 = ''; 
+	$active_3 = ''; 
+	$active_4 = ''; 
+	$active_5 = '';
+	if(isset($_GET['page'])){
+		$page = $_GET['page'];
+			if($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
+				$active_1 = 'active';
+			}elseif($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
+				$active_2 = 'active';
+			}elseif($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
+				$active_3 = 'active';
+			}elseif($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
+				$active_4 = 'active';
+			}elseif($page == 'contact' || $page == 'map' || $page == 'offer'){
+				$active_5 = 'active';
+			}
+		}
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -31,7 +52,7 @@
           
           <ul class="nav navbar-nav navbar-right">
             <li class="pull-right"><a href="index.html"><i class="fa fa-home"></i></a></li>
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_1; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> درباره ما </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=review">نگاه اجمالی</a></li>
@@ -41,7 +62,7 @@
                 <li><a href="?page=customer">از زبان مشتریان </a></li>
               </ul>
             </li>
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_2; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> فعالیت ها </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=activity_review">نگاه اجمالی</a></li>
@@ -49,7 +70,7 @@
                 <li><a href="?page=tasks">خدمات منحصر به فرد</a></li>
               </ul>
             </li>
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_3; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> چرا پلاک پرستیژ</a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=review">نگاه اجمالی</a></li>
@@ -59,7 +80,7 @@
               </ul>
             </li>
             
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_4; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> خدمات اختصاصی </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=review">نگاه اجمالی</a></li>
@@ -71,12 +92,12 @@
             </li>
             
             
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_5; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> ارتباط با ما </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="?page=contact">تماس با ما </a></li>
                 <li><a href="?page=map">دفاتر و پروژه های شرکت </a></li>
-                <li><a href="main.php?page=offer">درخواست فرم  پیشنهاد همکاری</a></li>
+                <li><a href="?page=offer">درخواست فرم  پیشنهاد همکاری</a></li>
               </ul>
             </li>
             
