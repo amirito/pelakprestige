@@ -162,6 +162,7 @@ a:hover{
 	cursor:pointer;
 	margin-right:5px;
 	padding-left:10px;
+	color:#1285b0;
 	}
 .fa-arrow-circle-left:hover{
 	padding-left:5px;
@@ -336,30 +337,36 @@ a:hover{
 	pointer-events: auto;
 }
 .sign1{
-	background: #429a67;
-	background: -webkit-radial-gradient(transparent 35%, #ff0000 35%);
-	background: -moz-radial-gradient(transparent 35%, #ff0000 35%);
-	background: radial-gradient(transparent 35%, #ff0000 35%);
+	background: #FFB600;
+	background: -webkit-radial-gradient(transparent 35%, #FFB600 35%);
+	background: -moz-radial-gradient(transparent 35%, #FFB600 35%);
+	background: radial-gradient(transparent 35%, #FFB600 35%);
 	}
 .sign2{
-	background: #429a67;
-	background: -webkit-radial-gradient(transparent 35%, #00ff00 35%);
-	background: -moz-radial-gradient(transparent 35%, #00ff00 35%);
-	background: radial-gradient(transparent 35%, #00ff00 35%);
+	background: #0686B7;
+	background: -webkit-radial-gradient(transparent 35%, #0686B7 35%);
+	background: -moz-radial-gradient(transparent 35%, #0686B7 35%);
+	background: radial-gradient(transparent 35%, #0686B7 35%);
 	}
 .sign3{
-	background: #429a67;
-	background: -webkit-radial-gradient(transparent 35%, #0000ff 35%);
-	background: -moz-radial-gradient(transparent 35%, #0000ff 35%);
-	background: radial-gradient(transparent 35%, #0000ff 35%);
+	background: #7809BF;
+	background: -webkit-radial-gradient(transparent 35%, #7809BF 35%);
+	background: -moz-radial-gradient(transparent 35%, #7809BF 35%);
+	background: radial-gradient(transparent 35%, #7809BF 35%);
 	}
 .sign4{
-	background: #429a67;
-	background: -webkit-radial-gradient(transparent 35%, gray 35%);
-	background: -moz-radial-gradient(transparent 35%, gray 35%);
-	background: radial-gradient(transparent 35%, gray 35%);
+	background: #FF2C00;
+	background: -webkit-radial-gradient(transparent 35%, #FF2C00 35%);
+	background: -moz-radial-gradient(transparent 35%, #FF2C00 35%);
+	background: radial-gradient(transparent 35%, #FF2C00 35%);
 	}
-
+.sign5{
+	background: #00CA4B;
+	background: -webkit-radial-gradient(transparent 35%, #00CA4B 35%);
+	background: -moz-radial-gradient(transparent 35%, #00CA4B 35%);
+	background: radial-gradient(transparent 35%, #00CA4B 35%);
+	}
+	
 .csstransforms .cn-wrapper li a span {
 	position: relative;
 	top: 1.8em;
@@ -374,9 +381,10 @@ a:hover{
 .csstransforms .cn-wrapper li a:hover,
 .csstransforms .cn-wrapper li a:active,
 .csstransforms .cn-wrapper li a:focus {
-	background: -webkit-radial-gradient(transparent 35%, #14769b 35%);
-	background: -moz-radial-gradient(transparent 35%, #14769b 35%);
-	background: radial-gradient(transparent 35%, #14769b 35%);
+	background: -webkit-radial-gradient(transparent 35%, #eee 35%);
+	background: -moz-radial-gradient(transparent 35%, #eee 35%);
+	background: radial-gradient(transparent 35%, #eee 35%);
+	color:#000;
 }
 .csstransforms .cn-wrapper li a:focus {
     position: fixed; /* fix the displacement bug in webkit browsers when using tab key */

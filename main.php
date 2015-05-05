@@ -124,8 +124,8 @@
                   <li><a href="#" class="sign1"><span>مشاهده سابقه و وضعیت مالی واحد</span></a></li>
                   <li><a href="#" class="sign2"><span>پرداخت (شارژ و قبوض)</span></a></li>
                   <li><a href="#" class="sign3"><span>گزارشات مالی و اسناد و مدارک </span></a></li>
-                  <li><a href="#" class="sign4"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
-                  <li><a href="#" class="sign4"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
+                  <li><a href="#" class="sign4"><span>اطلاعات ضروری برای ساکنین</span></a></li>
+                  <li><a href="#" class="sign5"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
                </ul>
           </div>
           <!-- End of Nav Structure -->
