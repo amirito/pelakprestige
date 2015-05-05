@@ -12,7 +12,7 @@
 				$active_2 = 'active';
 			}elseif($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
 				$active_3 = 'active';
-			}elseif($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
+			}elseif($page == 'exclusive_prestige' || $page == 'exclusive_5star' || $page == 'exclusive_discount' || $page == 'exclusive_introduce'){
 				$active_4 = 'active';
 			}elseif($page == 'contact' || $page == 'map' || $page == 'offer'){
 				$active_5 = 'active';
@@ -73,21 +73,21 @@
             <li class="dropdown pull-right <?php echo $active_3; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> چرا پلاک پرستیژ</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=review">نگاه اجمالی</a></li>
-                <li><a href="?page=value">رضایت مشتریان</a></li>
-                <li><a href="?page=board">آموزش مدیران ساختمان </a></li>
-                <li><a href="?page=join">انرژی و محیط زیست</a></li>
+                <li><a href="?page=why_review">نگاه اجمالی</a></li>
+                <li><a href="?page=why_1">رضایت مشتریان</a></li>
+                <li><a href="?page=why_1">آموزش مدیران ساختمان </a></li>
+                <li><a href="?page=why_1">مرکز آموزش </a></li>
+                <li><a href="?page=why_1">انرژی و محیط زیست</a></li>
               </ul>
             </li>
             
             <li class="dropdown pull-right <?php echo $active_4; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> خدمات اختصاصی </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=review">نگاه اجمالی</a></li>
-                <li><a href="?page=value">ارزشهای سازمانی</a></li>
-                <li><a href="?page=board">اعضای هیات مدیره </a></li>
-                <li><a href="?page=join">به ما بپیوندید</a></li>
-                <li><a href="?page=customer">از زبان مشتریان </a></li>
+                <li><a href="?page=exclusive_prestige">سامانه پلاک پرستیژ</a></li>
+                <li><a href="?page=exclusive_5star">خدمات هتل های 5 ستاره</a></li>
+                <li><a href="?page=exclusive_discount">تخفیفات هیجان انگیز ویژه ساکنین</a></li>
+                <li><a href="?page=exclusive_introduce">معرفی بهترین کسب و کارهای محله</a></li>
               </ul>
             </li>
             
