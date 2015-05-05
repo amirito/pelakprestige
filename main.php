@@ -42,9 +42,9 @@
               </ul>
             </li>
             <li class="dropdown pull-right">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> خدمات </a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> فعالیت ها </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=ownership">نگاه اجمالی</a></li>
+                <li><a href="?page=activity_review">نگاه اجمالی</a></li>
                 <li><a href="?page=statute">مدیریت ساختمان</a></li>
                 <li><a href="?page=tasks">خدمات منحصر به فرد</a></li>
               </ul>
