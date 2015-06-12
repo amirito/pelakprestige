@@ -1,3 +1,24 @@
+<?php
+	$active_1 = ''; 
+	$active_2 = ''; 
+	$active_3 = ''; 
+	$active_4 = ''; 
+	$active_5 = '';
+	if(isset($_GET['page'])){
+		$page = $_GET['page'];
+			if($page == 'review' || $page == 'value' || $page == 'board' || $page == 'join' || $page == 'customer'){
+				$active_1 = 'active';
+			}elseif($page == 'activity_review' || $page == 'statute' || $page == 'task'){
+				$active_2 = 'active';
+			}elseif($page == 'why_review' || $page == 'why_1'){
+				$active_3 = 'active';
+			}elseif($page == 'exclusive_prestige' || $page == 'exclusive_5star' || $page == 'exclusive_discount' || $page == 'exclusive_introduce'){
+				$active_4 = 'active';
+			}elseif($page == 'contact' || $page == 'map' || $page == 'offer'){
+				$active_5 = 'active';
+			}
+		}
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -31,51 +52,51 @@
           
           <ul class="nav navbar-nav navbar-right">
             <li class="pull-right"><a href="index.html"><i class="fa fa-home"></i></a></li>
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_1; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> درباره ما </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=review">نگاه اجمالی</a></li>
-                <li><a href="?page=value">ارزشهای سازمانی</a></li>
-                <li><a href="?page=board">اعضای هیات مدیره </a></li>
-                <li><a href="?page=join">به ما بپیوندید</a></li>
-                <li><a href="?page=customer">از زبان مشتریان </a></li>
+                <li><a href="main.php?page=review">نگاه اجمالی</a></li>
+                <li><a href="main.php?page=value">ارزشهای سازمانی</a></li>
+                <li><a href="main.php?page=board">اعضای هیات مدیره </a></li>
+                <li><a href="main.php?page=join">به ما بپیوندید</a></li>
+                <li><a href="main.php?page=customer">از زبان مشتریان </a></li>
               </ul>
             </li>
-            <li class="dropdown pull-right">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> خدمات </a>
+            <li class="dropdown pull-right <?php echo $active_2; ?>" >
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> فعالیت ها </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=ownership">نگاه اجمالی</a></li>
-                <li><a href="?page=statute">مدیریت ساختمان</a></li>
-                <li><a href="?page=tasks">خدمات منحصر به فرد</a></li>
+                <li><a href="main.php?page=activity_review">نگاه اجمالی</a></li>
+                <li><a href="main.php?page=statute">مدیریت ساختمان</a></li>
+                <li><a href="main.php?page=tasks">خدمات منحصر به فرد</a></li>
               </ul>
             </li>
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_3; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> چرا پلاک پرستیژ</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=review">نگاه اجمالی</a></li>
-                <li><a href="?page=value">رضایت مشتریان</a></li>
-                <li><a href="?page=board">آموزش مدیران ساختمان </a></li>
-                <li><a href="?page=join">انرژی و محیط زیست</a></li>
+                <li><a href="main.php?page=why_review">نگاه اجمالی</a></li>
+                <li><a href="main.php?page=why_1">رضایت مشتریان</a></li>
+                <li><a href="main.php?page=why_1">آموزش مدیران ساختمان </a></li>
+                <li><a href="main.php?page=why_1">مرکز آموزش </a></li>
+                <li><a href="main.php?page=why_1">انرژی و محیط زیست</a></li>
               </ul>
             </li>
             
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_4; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> خدمات اختصاصی </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=review">نگاه اجمالی</a></li>
-                <li><a href="?page=value">ارزشهای سازمانی</a></li>
-                <li><a href="?page=board">اعضای هیات مدیره </a></li>
-                <li><a href="?page=join">به ما بپیوندید</a></li>
-                <li><a href="?page=customer">از زبان مشتریان </a></li>
+                <li><a href="main.php?page=exclusive_prestige">سامانه پلاک پرستیژ</a></li>
+                <li><a href="main.php?page=exclusive_5star">خدمات هتل های 5 ستاره</a></li>
+                <li><a href="main.php?page=exclusive_discount">تخفیفات هیجان انگیز ویژه ساکنین</a></li>
+                <li><a href="main.php?page=exclusive_introduce">معرفی بهترین کسب و کارهای محله</a></li>
               </ul>
             </li>
             
             
-            <li class="dropdown pull-right">
+            <li class="dropdown pull-right <?php echo $active_5; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> ارتباط با ما </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="?page=contact">تماس با ما </a></li>
-                <li><a href="?page=map">دفاتر و پروژه های شرکت </a></li>
+                <li><a href="main.php?page=contact">تماس با ما </a></li>
+                <li><a href="main.php?page=map">دفاتر و پروژه های شرکت </a></li>
                 <li><a href="main.php?page=offer">درخواست فرم  پیشنهاد همکاری</a></li>
               </ul>
             </li>
@@ -124,8 +145,8 @@
                   <li><a href="#" class="sign1"><span>مشاهده سابقه و وضعیت مالی واحد</span></a></li>
                   <li><a href="#" class="sign2"><span>پرداخت (شارژ و قبوض)</span></a></li>
                   <li><a href="#" class="sign3"><span>گزارشات مالی و اسناد و مدارک </span></a></li>
-                  <li><a href="#" class="sign4"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
-                  <li><a href="#" class="sign4"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
+                  <li><a href="#" class="sign4"><span>اطلاعات ضروری برای ساکنین</span></a></li>
+                  <li><a href="#" class="sign5"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
                </ul>
           </div>
           <!-- End of Nav Structure -->
