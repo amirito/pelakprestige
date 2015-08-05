@@ -1,6 +1,7 @@
 <?php 
+	session_start();
 	if(!isset($_SESSION['MM_ID'])){
-		header('login.php');
+		header('Location: login.php');
 		}
 ?>
 <!doctype html>
