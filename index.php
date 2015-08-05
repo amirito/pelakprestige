@@ -1,3 +1,8 @@
+<?php 
+	if(!isset($_SESSION['MM_ID'])){
+		header('login.php');
+		}
+?>
 <!doctype html>
 <html>
     <head>
@@ -62,18 +67,21 @@
                             	<ul class="sub-menu">
 									<li class="nav-prev"><a href="index.html#"><i class="fa fa-angle-left"></i>درباره ما</a></li>
 									<li><a href="main.php?page=review">نگاه اجمالی</a></li>
-                                    <li><a href="main.php?page=value">ارزشهای سازمانی</a></li>
+                                    <li><a href="main.php?page=construction">ارزشهای سازمانی</a></li>
                                     <li><a href="main.php?page=board">اعضای هیات مدیره </a></li>
-                                    <li><a href="main.php?page=join">به ما بپیوندید</a></li>
-                                    <li><a href="main.php?page=customer">از زبان مشتریان </a></li>
+                                    <li><a href="main.php?page=construction"> در رسانه ها</a></li>
+                                    <li><a href="main.php?page=construction">گواهینامه ها</a></li>
+                                    <li><a href="main.php?page=construction">از زبان مشتریان </a></li>
 								</ul>
 							</li>
                             <li class="menu-item-has-children"><a href="index.html">فعالیت ها</a>
                             	<ul class="sub-menu">
                                		<li class="nav-prev"><a href="index.html#"><i class="fa fa-angle-left"></i>فعالیت ها</a></li>
 									<li><a href="main.php?page=activity_review">نگاه اجمالی</a></li>
-                                    <li><a href="main.php?page=statute">مدیریت ساختمان</a></li>
-                                    <li><a href="main.php?page=tasks">خدمات منحصر به فرد</a></li>
+                                    <li><a href="main.php?page=construction">مدیریت ساختمان</a></li>
+                                    <li><a href="main.php?page=construction">مدیریت مجتمع های مسکونی</a></li>
+                                    <li><a href="main.php?page=construction">آموزش مدیران ساختمان</a></li>
+                                    <li><a href="main.php?page=construction">خدمات ارزش افزوده</a></li>
 								</ul>
 							</li>
                             
@@ -82,8 +90,6 @@
                                		<li class="nav-prev"><a href="index.html#"><i class="fa fa-angle-left"></i>چرا پلاک پرستیژ</a></li>
 									<li><a href="main.php?page=why_review">نگاه اجمالی</a></li>
                                     <li><a href="main.php?page=why_1">رضایت مشتریان</a></li>
-                                    <li><a href="main.php?page=why_1">آموزش مدیران ساختمان </a></li>
-                                    <li><a href="main.php?page=why_1">مرکز آموزش </a></li>
                                     <li><a href="main.php?page=why_1">انرژی و محیط زیست</a></li>
 								</ul>
 							</li>
@@ -93,8 +99,8 @@
 									<li class="nav-prev"><a href="index.html#"><i class="fa fa-angle-left"></i>خدمات اختصاصی</a></li>
 									<li><a href="main.php?page=exclusive_prestige">سامانه پلاک پرستیژ</a></li>
                                     <li><a href="main.php?page=exclusive_5star">خدمات هتل های 5 ستاره</a></li>
-                                    <li><a href="main.php?page=exclusive_discount">تخفیفات هیجان انگیز ویژه ساکنین</a></li>
-                                    <li><a href="main.php?page=exclusive_introduce">معرفی بهترین کسب و کارهای محله</a></li>
+                                    <li><a href="main.php?page=exclusive_discount">تخفیفات ویژه ساکنین</a></li>
+                                    <li><a href="main.php?page=exclusive_introduce">معرفی کسب و کارهای برتر محله</a></li>
 								</ul>
 							</li>
 
@@ -102,8 +108,21 @@
                             	<ul class="sub-menu">
 									<li class="nav-prev"><a href="index.html#"><i class="fa fa-angle-left"></i>ارتباط با ما</a></li>
 									<li><a href="main.php?page=contact">تماس با ما </a></li>
-                                    <li><a href="main.php?page=map">دفاتر و پروژه های شرکت </a></li>
-                                    <li><a href="main.php?page=offer">درخواست فرم  پیشنهاد همکاری</a></li>
+                                    <li><a href="main.php?page=map"> پروژه های شرکت </a></li>
+                                    <li><a href="main.php?page=offer"> فرم  پیشنهاد همکاری</a></li>
+                                    <li><a href="main.php?page=join">به ما بپیوندید</a></li>
+								</ul>
+							</li>
+                            <li class="menu-item-has-children"><a href="index.html">ورود ساکنین و مالکین</a>
+                            	<ul class="sub-menu">
+									<li class="nav-prev"><a href="index.html#"><i class="fa fa-angle-left"></i>ورود ساکنین و مالکین</a></li>								
+                                    <li><a href="main.php?page=exclusive_prestige">تابلوی اعلانات( گزارشات و اخبار)</a></li>
+                                    <li><a href="main.php?page=exclusive_prestige">اساسنامه مجتمع شما</a></li>
+                                    <li><a href="main.php?page=exclusive_prestige">خدمات اختصاصی</a></li>
+                                    <li><a href="main.php?page=exclusive_prestige">اطلاعات ضروری ساکنین</a></li>
+                                    <li><a href="main.php?page=exclusive_prestige">مشاهده سابقه و وضعیت مالی واحد</a></li>
+                                    <li><a href="main.php?page=exclusive_prestige">پرداخت ها (شارژ و قبوض)</a></li>
+									
 								</ul>
 							</li>
 
@@ -126,7 +145,7 @@
 						</ul>
 						<!-- /Social icons -->	
 						<div id="copyright">
-							رای وب
+							<p align="center">طراحی :<a href="http://rayweb.ir">رای وب</a></p>
 						</div>
 					</div>
 					<!-- /Sidebar footer -->	
@@ -173,7 +192,7 @@
 
 						<!-- Kenburn slide -->	
 						<div class="item">
-							<img src="assets/img/home/03.jpg" alt="img">
+							<img src="assets/img/home/11.jpg" alt="img">
                                                         				<div class="caption" data-pos="bottom-right">
 						<a href="index.html" title="sample page">
 							<span class="sub-title">پلاک پرستیژ </span>

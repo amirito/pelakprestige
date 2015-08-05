@@ -56,28 +56,31 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> درباره ما </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="main.php?page=review">نگاه اجمالی</a></li>
-                <li><a href="main.php?page=value">ارزشهای سازمانی</a></li>
+                <li><a href="main.php?page=construction">ارزشهای سازمانی</a></li>
                 <li><a href="main.php?page=board">اعضای هیات مدیره </a></li>
-                <li><a href="main.php?page=join">به ما بپیوندید</a></li>
-                <li><a href="main.php?page=customer">از زبان مشتریان </a></li>
+                <li><a href="main.php?page=construction"> در رسانه ها</a></li>
+                <li><a href="main.php?page=construction">گواهینامه ها</a></li>
+                <li><a href="main.php?page=construction">از زبان مشتریان </a></li>
               </ul>
             </li>
             <li class="dropdown pull-right <?php echo $active_2; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> فعالیت ها </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="main.php?page=activity_review">نگاه اجمالی</a></li>
-                <li><a href="main.php?page=statute">مدیریت ساختمان</a></li>
-                <li><a href="main.php?page=tasks">خدمات منحصر به فرد</a></li>
+					<li><a href="main.php?page=activity_review">نگاه اجمالی</a></li>
+                    <li><a href="main.php?page=construction">مدیریت ساختمان</a></li>
+                    <li><a href="main.php?page=construction">مدیریت مجتمع های مسکونی</a></li>
+                    <li><a href="main.php?page=construction">آموزش مدیران ساختمان</a></li>
+                    <li><a href="main.php?page=construction">خدمات ارزش افزوده</a></li>
               </ul>
             </li>
             <li class="dropdown pull-right <?php echo $active_3; ?>" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span> چرا پلاک پرستیژ</a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="main.php?page=why_review">نگاه اجمالی</a></li>
-                <li><a href="main.php?page=why_1">رضایت مشتریان</a></li>
-                <li><a href="main.php?page=why_1">آموزش مدیران ساختمان </a></li>
-                <li><a href="main.php?page=why_1">مرکز آموزش </a></li>
-                <li><a href="main.php?page=why_1">انرژی و محیط زیست</a></li>
+                <li><a href="main.php?page=construction">رضایت مشتریان</a></li>
+                <li><a href="main.php?page=construction">آموزش مدیران ساختمان </a></li>
+                <li><a href="main.php?page=construction">مرکز آموزش </a></li>
+                <li><a href="main.php?page=construction">انرژی و محیط زیست</a></li>
               </ul>
             </li>
             
@@ -142,11 +145,11 @@
           <button class="cn-button" id="cn-button">ورود ساکنین / مالکین</button>
           <div class="cn-wrapper" id="cn-wrapper">
               <ul>
-                  <li><a href="#" class="sign1"><span>مشاهده سابقه و وضعیت مالی واحد</span></a></li>
-                  <li><a href="#" class="sign2"><span>پرداخت (شارژ و قبوض)</span></a></li>
-                  <li><a href="#" class="sign3"><span>گزارشات مالی و اسناد و مدارک </span></a></li>
-                  <li><a href="#" class="sign4"><span>اطلاعات ضروری برای ساکنین</span></a></li>
-                  <li><a href="#" class="sign5"><span>اساسنامه اختصاصی مجتمع شما</span></a></li>
+                  <li><a href="#" class="sign1"><span id="first">مشاهده سابقه و وضعیت مالی واحد</span></a></li>
+                  <li><a href="#" class="sign2"><span id="second">پرداخت (شارژ و قبوض)</span></a></li>
+                  <li><a href="#" class="sign3"><span id="third">گزارشات مالی و اسناد و مدارک </span></a></li>
+                  <li><a href="#" class="sign4"><span id="forth">اطلاعات ضروری برای ساکنین</span></a></li>
+                  <li><a href="#" class="sign5"><span id="fifth">اساسنامه اختصاصی مجتمع شما</span></a></li>
                </ul>
           </div>
           <!-- End of Nav Structure -->
@@ -170,9 +173,7 @@
         
         ?>
     </section>
-    <div class="text-center">
-    	<p>طراحی : شرکت <a href="http://rayweb.ir">رای وب</a></p>
-    </div>
+    
 </div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
